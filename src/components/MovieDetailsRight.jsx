@@ -12,7 +12,7 @@ let MovieDetailsRight = ({ details, IMG_PATH }) => {
          setVideoKey(res.results[0].key);
       });
 
-   let videoURL = "http://www.youtube.com/embed/" + videoKey;
+   let videoURL = "https://www.youtube.com/embed/" + videoKey;
 
    let genres = details.genres;
    return (
