@@ -46,7 +46,7 @@ let Home = () => {
                   setText={setText}
                />
             )}
-            {err && <div> {err} </div>} 
+            {err && <div> {err} </div>}
          </div>
       </div>
    );
