@@ -21,6 +21,8 @@ let MovieDetailsRight = ({ details, IMG_PATH }) => {
             <iframe
                className="object-cover w-full h-96 rounded-xl"
                src={videoURL}
+               title="movie trailer"
+               frameBorder="0"
                
                allowFullScreen
             ></iframe>
